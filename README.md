@@ -20,7 +20,6 @@ Sistemul este gândit pentru un consum redus de energie, fiind centrat în jurul
 Mai jos este prezentată arhitectura logică a smartwatch-ului și modul în care comunică modulele între ele:
 
 ![Diagrama Bloc](Images/Diagrama_Bloc.png)
-*(Notă: Asigură-te că imaginea Diagrama_Bloc.png se află în folderul Images pe GitHub)*
 
 ---
 
@@ -34,7 +33,6 @@ Pentru a asigura o rutare eficientă și comunicarea corectă cu perifericele, a
 | **Senzor BST-BMV080** | I2C | SCL, SDA | Protocol standard și eficient cu doar 2 fire pentru citirea datelor senzorilor. |
 | **Shaker (Motor vibrații)** | PWM (GPIO) | Pin Digital (ex: P0.xx) | Controlul turației/intensității vibrației printr-un semnal PWM generat din software. |
 | **Butoane Utilizator** | GPIO (Interupții) | 3x Pini Digitali | Detectarea apăsărilor pentru navigarea în meniul ceasului. |
-*(Notă pentru tine: Verifică schema ta .sch și înlocuiește "P0.xx" cu pinii exacți pe care i-ai trasat tu!)*
 
 ---
 
@@ -54,8 +52,6 @@ Toate fișierele necesare pentru producția în masă a PCBA-ului se regăsesc �
 | Rezistențe Pull-up | 0201 | JLC Parts |
 
 ---
-
-## 📦 5. Integrare Mecanică & 3D
 
 Placa a fost rutată respectând constrângerile mecanice (poziția butoanelor și a mufei USB). Ansamblul 3D complet se află în folderul `Mechanical/` în formatele `.f3z` (Nativ Fusion 360) și `.step`.
 
