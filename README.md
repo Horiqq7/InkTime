@@ -40,7 +40,7 @@ Pentru a asigura o rutare eficientă și comunicarea corectă cu perifericele, a
 
 Toate fișierele necesare pentru producția în masă a PCBA-ului se regăsesc în folderul `Manufacturing/`.
 
-* **Gerber Files:** [gerbers.zip](./Manufacturing/InkTime_Gerbers.zip) - Gata pentru a fi trimise la un producător precum JLCPCB.
+* **Gerber Files:** [gerbers.zip](./Manufacturing/) - Gata pentru a fi trimise la un producător precum JLCPCB.
 * **Pick and Place:** [.cpl file](./Manufacturing/) - Coordonatele exacte pentru asamblarea automată SMD.
 * **Bill of Materials (BOM):** [.bom file](./Manufacturing/) - Lista completă a componentelor. Câteva piese cheie includ:
 
