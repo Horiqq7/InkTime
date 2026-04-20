@@ -71,19 +71,19 @@ InkTime v6 este un smartwatch open-source bazat pe **nRF52840**, optimizat pentr
 
 | # | Ref | Componentă | Cod / Valoare | JLC Parts | Datasheet |
 |---|-----|------------|---------------|-----------|-----------|
-| 1 | U1 | MCU BLE | nRF52840-QIAA | [C190794](https://jlcpcb.com/partdetail/C190794) | [nRF52840 PS](https://infocenter.nordicsemi.com/pdf/nRF52840_PS_v1.7.pdf) |
-| 2 | IC2 | Li-Ion Charger | BQ25180YBGR | [C2682092](https://jlcpcb.com/partdetail/C2682092) | [TI BQ25180](https://www.ti.com/lit/ds/symlink/bq25180.pdf) |
-| 3 | IC9 | Buck DC/DC | RT6160AWSC | [C2828036](https://jlcpcb.com/partdetail/C2828036) | [Richtek RT6160A](https://www.richtek.com/assets/product_file/RT6160A/DS6160A-00.pdf) |
-| 4 | U3 | Fuel Gauge | MAX17048G+T10 | [C2682766](https://jlcpcb.com/partdetail/C2682766) | [MAX17048](https://datasheets.maximintegrated.com/en/ds/MAX17048-MAX17049.pdf) |
-| 5 | IC3 | IMU | BMA423 | [C2831316](https://jlcpcb.com/partdetail/C2831316) | [Bosch BMA423](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bma423-ds000.pdf) |
-| 6 | IC1 | Driver haptic | DRV2605YZFR | [C527680](https://jlcpcb.com/partdetail/C527680) | [TI DRV2605](https://www.ti.com/lit/ds/symlink/drv2605.pdf) |
-| 7 | D1 | Protecție ESD USB | USBLC6-2SC6Y | [C7519](https://jlcpcb.com/partdetail/C7519) | [ST USBLC6-2](https://www.st.com/resource/en/datasheet/usblc6-2.pdf) |
-| 8 | Q1 | PMOS load switch | DMG2305UX-7 | [C150812](https://jlcpcb.com/partdetail/C150812) | [DMG2305UX](https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf) |
-| 9 | Q3 | N-MOS (motor) | SI1308EDL-T1-GE3 | [C515086](https://jlcpcb.com/partdetail/C515086) | [SI1308EDL](https://www.vishay.com/docs/65783/si1308edl.pdf) |
-| 10 | J1 | Conector FPC EPD | 503480-2400 (24p) | [C585393](https://jlcpcb.com/partdetail/C585393) | [Molex 503480](https://www.molex.com/en-us/products/part-detail/5034802400) |
-| 11 | J4 | Conector USB-C | KH-TYPE-C-16P | [C2765186](https://jlcpcb.com/partdetail/C2765186) | USB Type-C Spec |
-| 12 | ANT1 | Antenă chip 2.4GHz | 2450AT18B100E | Search JLC | [Johanson](https://www.johansontechnology.com/datasheets/2450AT18B100E/2450AT18B100E.pdf) |
-| 13 | J2 | Header debug | TC2030-IDC | Search JLC | [Tag-Connect](https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-IDC_1.pdf) |
+| 1 | U1 | MCU BLE | nRF52840-QIAA | C190794 | nRF52840 PS |
+| 2 | IC2 | Li-Ion Charger | BQ25180YBGR | C2682092 | TI BQ25180 |
+| 3 | IC9 | Buck DC/DC | RT6160AWSC | C2828036 | Richtek RT6160A |
+| 4 | U3 | Fuel Gauge | MAX17048G+T10 | C2682766 | MAX17048 |
+| 5 | IC3 | IMU | BMA423 | C2831316 | Bosch BMA423 |
+| 6 | IC1 | Driver haptic | DRV2605YZFR | C527680 | TI DRV2605 |
+| 7 | D1 | Protecție ESD USB | USBLC6-2SC6Y | C7519 | ST USBLC6-2 |
+| 8 | Q1 | PMOS load switch | DMG2305UX-7 | C150812 | DMG2305UX |
+| 9 | Q3 | N-MOS (motor) | SI1308EDL-T1-GE3 | C515086 | SI1308EDL |
+| 10 | J1 | Conector FPC EPD | 503480-2400 (24p) | C585393 | Molex 503480 |
+| 11 | J4 | Conector USB-C | KH-TYPE-C-16P | C2765186 | USB Type-C Spec |
+| 12 | ANT1 | Antenă chip 2.4GHz | 2450AT18B100E | Search JLC | Johanson 2450AT18B100E |
+| 13 | J2 | Header debug | TC2030-IDC | Search JLC | Tag-Connect TC2030 |
 | 14 | X1 | Cristal HF | 32MHz | Search JLC | — |
 | 15 | X2 | Cristal LF | 32.768kHz | Search JLC | — |
 
